@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StreamGuide</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="channels">Channels</string>
+    <string name="all_shows">All Shows</string>
+    <string name="network_down">Network is currently down...</string>
+</resources>

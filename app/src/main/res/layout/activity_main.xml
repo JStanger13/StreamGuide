@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nyc.justinstanger.myapplication.MainActivity"
+    android:background="#c9c9c9"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:id="@+id/network_down"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    </android.support.v7.widget.CardView>
+    <ImageView
+        android:id="@+id/not_connected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            cardUseCompatPadding="true"
+            cardElevation="8dp"
+            android:background = "@color/cardview_dark_background"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:text="StreamGuide"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                />
+
+                <ImageButton
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/search"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#c9c9c9"
+
+                    android:background="@drawable/ic_search_black_24dp"
+
+                    />
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/string_channels_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/channel_recyclerview"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/string_all_shows_main"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+

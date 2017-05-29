@@ -1,0 +1,17 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+
+    cardUseCompatPadding="true"
+    cardElevation="8dp"
+    cardCornerRadius="3dp">
+
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</android.support.v7.widget.CardView>
