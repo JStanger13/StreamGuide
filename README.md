@@ -4,10 +4,6 @@
 
 <h3>StreamGuide helps solves the problem of having TOO MANY APPS to stream television shows. Even Roku and Apple TV collect various apps the user needs to jump between. Netflix, Hulu, and Amazon all create their own original programing and networks are now developing their own apps. With StreamGuide, users can browse all available shows, then jump into the app after, instead of vice versa. (Currently in Pre-Alpha)</h3>
 
-<h3>To prepare for this app, I survayed people on their television habbits. I was suprised (though I really shouldn't be) that people don't like to spend too much time browsing through potntial shows or movies on netflix the way I do. However, one problem I found was that most people didn't know what networks their favorite shows were available on. If apps go the way of tv, there will be (and already there are starting to be) apps for every single television station that hosts their own content on. That's all fine and dandy, but how do users find these shows? What if users don't know what apps to download?</h3>
-
-
-
 <p>The app pulls data from GuideBox, an API that collects data from various tv networks and streaming services. Calls are made using Retrofit. All the shows are displayed in a grid layout. The available networks are scrollable using a horizontal Recycler View. </p>
 
 
