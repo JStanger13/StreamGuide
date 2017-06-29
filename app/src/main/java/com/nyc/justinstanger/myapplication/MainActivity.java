@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String BASE_URL = "http://api-public.guidebox.com/";
     public static final String ID = "3efcd3b10e31ccf9b4eed278fa969a2e06f6deb7";
     public static final String SOURCE = "tv_everywhere";
-    //public static final String TV_EVERYWHERE = "tv_everywhere";
+    public static final String TV_EVERYWHERE = "tv_everywhere";
 
     public static final String PLATFORM = "andoird";
     public static final String LINKS = "true";
